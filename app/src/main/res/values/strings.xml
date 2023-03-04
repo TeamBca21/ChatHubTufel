@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChatHub</string>
+    <string name="welcome">Welcome to ChatHub</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="underscore">___________________________________________________________</string>
+    <string name="help">Help</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="search">Search</string>
+    <string name="bot_message">Bot Message</string>
+    <string name="user_message">User Message</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="submit">Submit</string>
+    <string name="hint">Type Your Question here..</string>
+</resources>
