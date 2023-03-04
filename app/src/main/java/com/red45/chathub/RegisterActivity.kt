@@ -81,6 +81,7 @@ class RegisterActivity : AppCompatActivity() {
                             storage.putFile(imgUri!!).addOnSuccessListener {
                                 storage.downloadUrl.addOnSuccessListener { url->
                                     var users = Users(name,email,pass,url.toString())
+
                                     database.getReference("Users").child(auth.uid.toString()).setValue(users)
                                     Toast.makeText(this@RegisterActivity,"Registration Completed...",Toast.LENGTH_SHORT).show()
                                     progreDialog.dismiss()
@@ -90,7 +91,6 @@ class RegisterActivity : AppCompatActivity() {
                             }
                         }else{
                             progreDialog.dismiss()
-
                             Toast.makeText(this@RegisterActivity,"Something Went Wrong !!!",Toast.LENGTH_SHORT).show()
                         }
                     }

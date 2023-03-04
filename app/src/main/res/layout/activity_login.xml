@@ -28,7 +28,7 @@
         android:layout_marginTop="25dp">
 
         <EditText
-            android:id="@+id/etLogEmail"
+            android:id="@+id/etEmailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#30ffffff"
@@ -44,7 +44,7 @@
             android:layout_marginTop="15dp"/>
 
         <EditText
-            android:id="@+id/etLogPass"
+            android:id="@+id/etPassLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#30ffffff"
@@ -60,7 +60,7 @@
             android:layout_marginTop="15dp"/>
 
         <Button
-            android:id="@+id/logBtn"
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
